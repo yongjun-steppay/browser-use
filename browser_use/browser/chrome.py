@@ -22,6 +22,10 @@ CHROME_DISABLED_COMPONENTS = [
 	'OverscrollHistoryNavigation',
 	'InfiniteSessionRestore',
 	#'LockProfileCookieDatabase',  # disabling allows multiple chrome instances to concurrently modify profile, but might make chrome much slower https://github.com/yt-dlp/yt-dlp/issues/7271  https://issues.chromium.org/issues/40901624
+	# Operator 기반하여 비활성화 요소 추가
+	'OptimizationGuideModelDownloading',
+	'OptimizationHintsFetching',
+	'OptimizationTargetPrediction',
 ]  # it's always best to give each chrome instance its own exclusive copy of the user profile
 
 
