@@ -80,6 +80,10 @@ CHROME_DISABLED_COMPONENTS = [
 	'OverscrollHistoryNavigation',
 	'InfiniteSessionRestore',
 	'ExtensionDisableUnsupportedDeveloper',
+	# Operator 기반하여 비활성화 요소 추가
+	'OptimizationGuideModelDownloading',
+	'OptimizationHintsFetching',
+	'OptimizationTargetPrediction',
 ]
 
 CHROME_HEADLESS_ARGS = [
